@@ -11,8 +11,9 @@ export const Container = styled.section`
       font-size: 4rem;
     }
     p{
-      color: var(--green);
+      color: var(--blue);
       font-weight: 500;
+      margin-top: 30px;
     }
   }
 
@@ -30,7 +31,7 @@ export const Container = styled.section`
       width: 50%;
       max-width: 30rem;
       gap: 2rem;
-      background-color: var(--green);
+      background-color: var(--blue);
       border-radius: 1.4rem;
       padding: 1.6rem 2.8rem;
       transition: background-color 0.25s;
@@ -38,13 +39,13 @@ export const Container = styled.section`
         width: 4rem;
       }
       a{
-        color: var(--black);
+        color: var(--navy);
         font-weight: 500;
       }
       &:hover{
-        background-color: var(--pink);
+        background-color: var(--grey);
         a{
-          color: #FFF;
+          color: #12264f;
         }
       }
     }

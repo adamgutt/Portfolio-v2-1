@@ -168,11 +168,6 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
-                {
                   "src": htmlIcon,
                   "width": 20,
                   "height": 20

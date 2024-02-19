@@ -17,17 +17,17 @@ export const Container = styled.div`
     gap: 1rem;
     width: 100%;
     input, textarea{
-      width: 60rem;
+      width: 90rem;
       padding: 1rem 2rem;
       border-radius: 1.6rem;
       outline: none;
       border: none;
-      background:none;
+      background: #fff;
       border: 1px solid #FFF;
-      color: white;
+      color: #12264f;
       font-weight: 600;
       &::placeholder{
-        color: #FFF;
+        color: #12264f;
       }
     }
 

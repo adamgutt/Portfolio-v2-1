@@ -20,8 +20,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>{"<Vinayak "}</span>
-          <span>{" Singh/>"}</span>
+          <span>{"<Adam "}</span>
+          <span>{" Guttman/>"}</span>
         </HashLink>
 
         <input
@@ -41,14 +41,14 @@ export function Header() {
             About me
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
+            Projects
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={CV} download className="button">
+          {/* <a href={CV} download className="button">
             CV
-          </a>
+          </a> */}
         </nav>
 
         <div

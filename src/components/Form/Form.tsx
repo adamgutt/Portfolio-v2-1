@@ -49,7 +49,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
+      <h2>Message me to get in touch</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
