@@ -1,45 +1,50 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
-import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
-import telegram from '../../assets/telegram.svg'
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export function Hero() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
+        <div data-aos="fade-up">
           <p>Hello <img src={Hello} alt="Hello" width="20px" />, I'm</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="200">
           <h1>Adam Guttman</h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="400">
           <h3 className="small-resume">Full Stack Developer</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="600">
           <p className="small-resume"></p>
-        </ScrollAnimation>
+        </div>
 
-
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        <div data-aos="fade-up" data-aos-delay="800">
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
-        </ScrollAnimation>
+        </div>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-          <div className="social-media"><a
-            href="https://www.linkedin.com/in/adamguttman/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={linkedin} alt="Linkedin" />
-          </a>
+        <div data-aos="fade-up" data-aos-delay="1000">
+          <div className="social-media">
+            <a
+              href="https://www.linkedin.com/in/adamguttman/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedin} alt="Linkedin" />
+            </a>
             <a
               href="https://github.com/adamgutt"
               target="_blank"
@@ -48,18 +53,14 @@ export function Hero() {
               <img src={githubIcon} alt="GitHub" />
             </a>
           </div>
-        </ScrollAnimation>
-
+        </div>
       </div>
-
 
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <div data-aos="fade-right" data-aos-delay="1000">
           <img src={Illustration} alt="Ilustração" />
-        </ScrollAnimation>
+        </div>
       </div>
-
     </Container>
-
   )
 }

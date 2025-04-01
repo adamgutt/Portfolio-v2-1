@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adamgutt.github.io/Portfolio-v2",
+  "homepage": "https://adamgutt.github.io/Portfolio-v2-1",
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.14.1",
@@ -12,8 +12,9 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "aos": "^2.3.4",
+    "caniuse-lite": "^1.0.30001707",
     "react": "^17.0.2",
-    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.2",
     "react-google-recaptcha": "^2.1.0",
     "react-router-dom": "^6.2.1",
@@ -31,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -53,11 +54,12 @@
     ]
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/react-animate-on-scroll": "^2.1.5",
     "@types/react-google-recaptcha": "^2.1.2",
     "@types/react-router-hash-link": "^2.4.4",
     "@types/styled-components": "^5.1.18",
     "@types/validator": "^13.7.1",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }

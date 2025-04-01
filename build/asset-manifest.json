@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2/static/css/main.039bf95e.css",
-    "main.js": "/Portfolio-v2/static/js/main.5cfa9d95.js",
+    "main.css": "/Portfolio-v2/static/css/main.47c200c8.css",
+    "main.js": "/Portfolio-v2/static/js/main.53a107e8.js",
     "static/media/VinayakSingh.png": "/Portfolio-v2/static/media/VinayakSingh.b47f5e7975b80ccbd448.png",
     "static/media/Hello.gif": "/Portfolio-v2/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/illustration.svg": "/Portfolio-v2/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
@@ -13,18 +13,17 @@
     "index.html": "/Portfolio-v2/index.html",
     "static/media/github.svg": "/Portfolio-v2/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
     "static/media/email-icon.svg": "/Portfolio-v2/static/media/email-icon.a83578f914460e952501546655b76165.svg",
-    "static/media/external-link.svg": "/Portfolio-v2/static/media/external-link.74ce2401d684101cc83125c6dac8ce9c.svg",
     "static/media/html-icon.svg": "/Portfolio-v2/static/media/html-icon.ebfc51e406097a90691ab82f1aa72db3.svg",
     "static/media/wordpress.svg": "/Portfolio-v2/static/media/wordpress.3bcdd91b50514041e84ea420c14b4812.svg",
     "static/media/css-icon.svg": "/Portfolio-v2/static/media/css-icon.60a6c50d5a470990f63ee17a3bbd9178.svg",
     "static/media/linkedin.svg": "/Portfolio-v2/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/Portfolio-v2/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/vue-icon.svg": "/Portfolio-v2/static/media/vue-icon.c286d2da48ffbf281f407b0c4c94271f.svg",
-    "main.039bf95e.css.map": "/Portfolio-v2/static/css/main.039bf95e.css.map",
-    "main.5cfa9d95.js.map": "/Portfolio-v2/static/js/main.5cfa9d95.js.map"
+    "main.47c200c8.css.map": "/Portfolio-v2/static/css/main.47c200c8.css.map",
+    "main.53a107e8.js.map": "/Portfolio-v2/static/js/main.53a107e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.039bf95e.css",
-    "static/js/main.5cfa9d95.js"
+    "static/css/main.47c200c8.css",
+    "static/js/main.53a107e8.js"
   ]
 }
