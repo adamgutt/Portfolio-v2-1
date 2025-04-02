@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+import AdamGuttman from "../../assets/AdamGuttman.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -87,7 +87,7 @@ export function About() {
       </div>
       <div className="about-image">
         <div data-aos="fade-right" data-aos-delay="200">
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={AdamGuttman} alt="Adam Guttman" />
         </div>
       </div>
     </Container>
