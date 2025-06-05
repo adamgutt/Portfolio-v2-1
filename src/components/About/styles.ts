@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 12rem;
+  margin-top: 9rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -59,6 +59,7 @@ export const Container = styled.section`
   }
 
   @media only screen and (max-width: 480px) {
+    margin-top: 5rem;
     .about-image {
       max-width: 100%;
       margin-top: 4rem;

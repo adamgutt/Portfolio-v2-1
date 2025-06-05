@@ -6,15 +6,7 @@ import externalLink from "../../assets/external-link.svg";
 import Apply from "../../assets/apply.jpeg";
 import Retail from "../../assets/retail.jpeg";
 import Home from "../../assets/home.jpeg";
-
-
-// Add placeholder images until you replace them
-const placeholderImages = {
-  mobile: "https://via.placeholder.com/350x200/2A2A2A/FFFFFF?text=Mobile+Plan+Signup",
-  internet: "https://via.placeholder.com/350x200/2A2A2A/FFFFFF?text=Internet+Enrollment",
-  lifeline: "https://via.placeholder.com/350x200/2A2A2A/FFFFFF?text=Lifeline+Signup",
-  mobileApp: "https://via.placeholder.com/350x200/2A2A2A/FFFFFF?text=iOS+Mobile+App",
-};
+import App from "../../assets/App.jpeg";
 
 export function Project() {
   useEffect(() => {
@@ -27,7 +19,9 @@ export function Project() {
       <div className="projects">
         <div data-aos="flip-left" data-aos-delay="100">
           <div className="project">
-            <img src={Retail} alt="Mobile Plan Signup" />
+            <div className="image-container">
+              <img src={Retail} alt="Mobile Plan Signup" />
+            </div>
             <h3>Mobile Plan Signup Process</h3>
             <p>A streamlined React TypeScript application for mobile plan enrollment. Features include plan comparison, user authentication, and seamless checkout process.</p>
             <div className="project-links">
@@ -46,7 +40,9 @@ export function Project() {
 
         <div data-aos="flip-left" data-aos-delay="200">
           <div className="project">
-            <img src={Home} alt="Internet Enrollment" />
+            <div className="image-container">
+              <img src={Home} alt="Internet Enrollment" />
+            </div>
             <h3>Home Internet Enrollment</h3>
             <p>A comprehensive solution for home internet service signup, featuring address validation, service availability checking, and package customization.</p>
             <div className="project-links">
@@ -65,7 +61,9 @@ export function Project() {
 
         <div data-aos="flip-left" data-aos-delay="300">
           <div className="project">
-            <img src={Apply} alt="Lifeline Signup" />
+            <div className="image-container">
+              <img src={Apply} alt="Lifeline Signup" />
+            </div>
             <h3>Lifeline Program Enrollment</h3>
             <p>An accessible application for Lifeline program enrollment, featuring eligibility verification, document upload, and application tracking.</p>
             <div className="project-links">
@@ -84,7 +82,9 @@ export function Project() {
 
         <div data-aos="flip-left" data-aos-delay="400">
           <div className="project">
-            <img src={placeholderImages.mobileApp} alt="iOS Mobile App" />
+            <div className="image-container">
+              <img src={App} alt="iOS Mobile App" className="mobile-image" />
+            </div>
             <h3>iOS Mobile Application</h3>
             <p>A React Native mobile app built with TypeScript, featuring user authentication, profile management, and real-time notifications.</p>
             <div className="project-links">

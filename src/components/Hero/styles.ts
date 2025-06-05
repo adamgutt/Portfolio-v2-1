@@ -70,9 +70,28 @@ export const Container = styled.section`
   }
 
   @media(max-width: 600px){
-    margin-top: 35%;
+    margin-top: 15%;
+    .hero-text{
+      & > p{
+        font-size: 1.5rem;
+      }
+      h1{
+        font-size: 4rem;
+      }
+      h3{
+        font-size: 1.6rem;
+      }
+    }
   }
   @media(max-width: 480px){
-    margin-top: 45%;
+    margin-top: 15%;
+    .hero-text{
+      & > p{
+        font-size: 1.4rem;
+      }
+      h1{
+        font-size: 3.5rem;
+      }
+    }
   }
 `

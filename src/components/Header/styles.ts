@@ -17,6 +17,13 @@ export const Container = styled.header`
   width: 100vw;
   z-index: 1000;
 
+  .logo {
+    font-size: 4rem; /* Default font size */
+    span {
+      transition: all 0.25s;
+    }
+  }
+
   nav{
     display: flex;
     align-items: center;
@@ -149,6 +156,10 @@ export const Container = styled.header`
   @media (max-width: 960px){
     padding: 1.8rem 3rem;
 
+    .logo {
+      font-size: 3rem; /* Smaller font size on mobile */
+    }
+
     .menu{
       display: block;
     }
@@ -182,4 +193,10 @@ export const Container = styled.header`
     }
   }
   
+  /* Add an additional breakpoint for even smaller screens if needed */
+  @media (max-width: 750px){
+    .logo {
+      font-size: 2rem; /* Even smaller font size for very small devices */
+    }
+  }
 `
